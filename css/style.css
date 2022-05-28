@@ -1,0 +1,509 @@
+/*Common Css Start*/
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+ol, ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+/*Common Css End*/
+body{
+    font-family: 'Lato', sans-serif;
+}
+/*Nav Section Css Start*/
+Nav{
+    background-color: #131e29;
+}
+.menu-fixed{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99999;
+    animation: menu-fixed .4s linear;
+}
+@keyframes menu-fixed {
+    0%{
+    top: -50px;
+    background: red;
+    }
+    100%{
+        top: 0;
+        background: yellow;
+    }
+}
+html,body{
+    scroll-behavior: smooth;
+}
+.menu-fixed{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 44444;
+    animation: menu-fixed .4s linear;
+
+    }
+        
+        nav .logo{
+            width: 20%;
+        }
+        nav .logo img{
+            display: block;
+        }
+        nav .menu{
+            width: 80%;
+        }
+        nav ul{
+            justify-content: flex-end;
+        }
+        nav ul li a{
+            display: inline-block;
+            font-size: 13px;
+            font-weight: 700;
+            color: #bfc1c2;
+            text-transform: uppercase;
+            padding: 42px 18px;
+            transition: all .4s linear;
+            
+        }
+        nav ul li:hover a{
+            color: #4bcaff;
+        }
+        nav .row{
+            align-items: center;
+        }
+/*Nav Section Css End*/ 
+
+/*Preloader Section Css End */ 
+.preloader{
+    background-color: white;
+    position: fixed;
+    z-index: 100000;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+/*Preloader Section Css End */ 
+
+        /*Banner Section Css Start */
+          
+        #banner{
+            height: 700px;
+            background-image: url(../img/content\ bg.png);
+            position: relative;
+            overflow: hidden;
+        }
+        #
+        
+        #banner .container{
+            height: 100%;
+        }
+        #banner .banner-img{
+            width: 40%;
+            position: absolute;
+            left: 0;
+            bottom: -85px;
+        }
+        #banner .banner-img img{
+            width: 100%;
+        }
+        #banner .banner-content h1{
+            
+        }
+        
+        #banner .banner-content{
+            max-width: 100%;
+            color: white;
+            margin-left: auto;
+            width: 60%;
+            
+        }
+        #banner .row{
+            height: 100%;
+            align-items: center;
+        }
+        #banner .container{
+            height: 100%;
+        }
+        #banner .banner 
+        #banner .banner-btn{
+            color: red;
+            margin-top: 60px;
+            
+            display: inline-block;
+            border: 1px;
+            margin-top: 40px;
+            margin-bottom: 49px;
+        }
+        #banner .banner-btn a{
+            border: 1px solid white;
+            display: inline-block;
+            color: white;
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 49px;
+        }
+        #banner .banner-apk-btn{
+            flex-wrap: wrap;
+            display: flex;
+            align-items: center;
+           
+            margin-bottom: -200px;
+        }
+        #banner .banner-apk-btn a{
+            background-color: #131e29;
+            width: 50px;
+            height: 50px;
+            display: inli;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 50px;
+            font-size: 25px;
+            color: #4bcaff;
+            margin-right: 16px;
+        }
+        /*Banner Section Css End */
+      
+       
+/*Content Section Css End*/
+        content h2{
+            padding-top: 250px;
+            color: white;
+            text-align: right;
+        }
+/*Content Section Css End*/ 
+/*Gallery Section Css End*/ 
+#gallery{
+    height:  580px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+#gallery p{
+    margin-bottom: 70px;
+}
+#gallery h3{
+    padding-top: 50px;
+    font-size: 36px;
+    color: #414042;
+}
+#gallery p{
+    font-size: 20px;
+    color: #414042;
+}
+#gallery .row{
+    text-align: center;
+    width: 100%;
+    /* align-items: center;
+    justify-content: center; */
+}
+#gallery .container h4{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 15px;
+    color: #414042;
+}
+#gallery .layer-1{
+    display: inline-block;
+    margin-left: 7%;
+}
+#gallery .layer-2{
+    display: inline-block;
+    /* margin-left: 95px; */
+    margin-left: 5%;
+}
+#gallery .layer-3{
+    display: inline-block;
+    /* margin-left: 95px; */
+    margin-left: 4%;
+}
+#gallery .layer-4{
+    display: inline-block;
+   
+    margin-left: 5%;
+}
+li{
+    color: #838383;
+    font-size: 13px;
+}
+/*Gallery Section Css End*/ 
+/*screenshot Section Css End*/
+ section .screenshot{
+     height: 574px;
+     background-color: white;
+     text-align: center;
+ } 
+#screenshot p{
+    margin-bottom: 58px;
+    color: #414042;
+}
+ section .screenshot h3{
+     font-size: 36px;
+     color: #414042;
+ }
+ #screenshot section .screenshot p{
+     color: #131e29;
+     font-size: 20px;
+ }
+ section .screenshot .screenshot-1{
+     margin-right: 30px;
+ }
+ section .screenshot .screenshot-2{
+     margin-right: 30px;
+ }
+ section .screenshot .screenshot-3{
+     margin-right: 30px;
+ }
+
+/*screenshot Section Css End*/ 
+/*Action Section Css End*/
+#action .img{
+    background-image: url(../img/action.png);
+} 
+#action .img{
+    background-image: url(../img/action.png);
+} 
+#action .img{
+    height: 550px;
+    text-align: center;
+    color: wheat;
+}
+#action .img h3{
+    display: inline-block;
+    color: #ffffff;
+    font-size: 48px;
+    padding-top: 80px;
+}
+#action .img .text{
+    width: 50%;
+    display: inline-block;
+    color: wheat;
+}
+
+#action .img li{
+    font-size: 18px;
+    color: wheat;
+}
+/*Action Section Css End*/ 
+/*Pricing Section Css End*/
+    .priceing-item{
+        text-align: center;
+        background-color: #f9f9f9;
+    }
+    .priceing-items{}
+    .priceing-item li{
+        font-size: 18px;
+    }
+    .priceing-item {
+        color: #d7d7d7;
+        margin: 0 25px;
+    }
+    .priceing-item h4{
+        padding: 30px;
+        
+        
+    }
+    .priceing-section.row{
+        height: 100%;
+        align-items: center;
+    }
+    .priceing-item P{
+        font-size: 85px;
+        background-color: #91c46b;
+    }
+    .priceing-section .priceing-item{
+        width: calc(30% - 30px);
+        border: 1px solid #dad7d7;
+        height: 100%;
+    }
+
+    .priceing-section .professional-package{
+        width: calc(40% - 90px);
+    }
+    .priceing-section .professional-package p{
+        background-color: #4bcaff;
+    }
+    .priceing-section .priceing-item{
+        /* padding: 30px; */
+    }
+    .priceing-section .priceing-item a{
+        padding: 20px;
+        background-color: #91c46b;
+        border-radius: 10px;
+        display: inline-block;
+        margin-bottom: 20px;
+        color: white;
+        margin-top: 80px;
+    }
+    .priceing-section .professional-package a{
+        background-color: #4bcaff;
+    }
+    .priceing-section .priceing-item .Advanced package h4{
+        background-color: #fd7c00;
+    }
+    .priceing-section .priceing-item.Advanced-package p{
+        background-color: #fd7c00;
+    }
+    .priceing-section .priceing-item.Advanced-package a{
+        background-color: #fd7c00;
+        color: white;
+    }
+/*Pricing Section Css End*/
+ 
+/*Testimonial Section Css End*/ 
+#testimonial .testimonial-img{
+    width: 20%;
+}
+#testimonial .testimonial-content{
+    width: 40%;
+}
+#testimonial .row{
+    align-items: center;
+    justify-content: center;
+}
+#testimonial .container h6{
+    text-align: right;
+   
+}
+#testimonial .container{
+    height: 380px;
+}
+#testimonial .container .testimonial-content{
+    color: #4bcaff;
+}
+#testimonial .container h6 small{
+    display: block;
+}
+#testimonial .container h3{
+    font-size: 36px;
+    color:#414042 ;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+/*Testimonial Section Css End*/ 
+/*app-info Section Css End*/
+#download .row{
+    text-align: center;
+}
+#download{
+    height: 210px;
+    background-color: #414042;
+}
+#download .container h1{
+    font-size: 55px;
+    text-align: center;
+    color: white;
+    padding-top: 36px;
+    padding-bottom: 37px;
+} 
+#download .container a{
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #4bcaff;
+    color: #414042;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+/*app-info Section Css End*/ 
+/*contact Section Css End*/
+#contact{
+    position:relative;
+}
+#contact iframe{
+    display: block;
+    width: 100%;
+    height: 500px;
+}
+#contact .contact-form{
+    border-radius: 10px;
+    padding: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 350px;
+    background-color: #68cff7;
+    text-align: center;
+}
+#contact .contact-form input,
+#contact .contact-form textarea,
+#contact .contact-form button{
+    text-align: center;
+    display: block;
+    width: 100%;
+    
+    padding: 15px 10px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+#contact .contact-form textarea{
+    resize: none;
+    height: 100px;
+}
+#contact .contact-form button{
+    background-color:#414042 ;
+    width: auto;
+    text-align: center;
+    display: inline-block;
+    padding: 10px;
+    width: 250px;
+    color: white;
+    cursor: pointer;
+}
+/*contact Section Css End*/ 
+/* Copyright Section Css End*/
+#copyright .txt{
+    height: 110px;
+    background-color: #414042;
+} 
+#copyright .txt h6{
+    font-size: 12px;
+    color: #69696a;
+    margin-left: 155px;
+    margin-top: 50px;
+}
+#copyright .txt h5{
+    font-size: 12px;
+    color: #69696a;
+    margin-left: 1110px;
+    
+}
+/* Copyright Section Css End*/ 
+/* Back to top Section Css End*/ 
+#backtotop{
+    position: fixed;
+    right: 50px;
+    bottom: 50px; 
+    display: none;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    border: 3px groove rgb(231, 154, 10);
+    line-height: 45px;
+    padding: initial;
+    border-radius: 50px;
+    font-size: 20px;
+    cursor: pointer;
+}
+/* Back to top Section Css End*/ 
